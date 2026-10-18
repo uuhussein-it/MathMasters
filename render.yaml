@@ -1,0 +1,13 @@
+# Render Blueprint: Render reads this file and creates the site for you.
+# It deploys the app as a free Static Site (no server, never sleeps).
+# To run server.js as a Node Web Service instead, see README → "Option B".
+services:
+  - type: web
+    name: questlearn
+    runtime: static
+    staticPublishPath: ./public
+    buildCommand: npm run check
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff

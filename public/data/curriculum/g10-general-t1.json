@@ -1,0 +1,266 @@
+{
+ "id": "g10-general-t1",
+ "grade": 10,
+ "track": "general",
+ "term": 1,
+ "code": "MAT50",
+ "title": "General Mathematics",
+ "topics": [
+  {
+   "id": "exponents-and-roots",
+   "name": "Exponents and Roots",
+   "questions": [
+    {
+     "q": "Simplify (q²)(3q⁴).",
+     "options": [
+      "3q⁸",
+      "3q⁶",
+      "4q⁶",
+      "3q²"
+     ],
+     "answer": 1,
+     "hint": "When multiplying, add exponents.",
+     "explanation": "3 · q²⁺⁴ = 3q⁶.",
+     "source": "original",
+     "id": "g10-general-t1-exponents-and-roots-1"
+    },
+    {
+     "q": "Simplify (2b³)².",
+     "options": [
+      "2b⁶",
+      "4b⁵",
+      "4b⁶",
+      "2b⁹"
+     ],
+     "answer": 2,
+     "hint": "Raise every factor to the power.",
+     "explanation": "2² · (b³)² = 4b⁶.",
+     "source": "original",
+     "id": "g10-general-t1-exponents-and-roots-2"
+    },
+    {
+     "q": "Simplify x⁸ ÷ x³.",
+     "options": [
+      "x⁵",
+      "x¹¹",
+      "x²⁴",
+      "x^(8/3)"
+     ],
+     "answer": 0,
+     "hint": "When dividing, subtract exponents.",
+     "explanation": "x⁸⁻³ = x⁵.",
+     "source": "original",
+     "id": "g10-general-t1-exponents-and-roots-3"
+    },
+    {
+     "q": "Evaluate 5⁻².",
+     "options": [
+      "−25",
+      "−10",
+      "1/25",
+      "1/10"
+     ],
+     "answer": 2,
+     "hint": "A negative exponent means reciprocal.",
+     "explanation": "5⁻² = 1/5² = 1/25.",
+     "source": "original",
+     "id": "g10-general-t1-exponents-and-roots-4"
+    },
+    {
+     "q": "Simplify √72.",
+     "options": [
+      "6√2",
+      "2√6",
+      "8√3",
+      "36√2"
+     ],
+     "answer": 0,
+     "hint": "Find the largest perfect square factor.",
+     "explanation": "√72 = √(36 · 2) = 6√2.",
+     "source": "original",
+     "id": "g10-general-t1-exponents-and-roots-5"
+    },
+    {
+     "q": "Evaluate 27^(2/3).",
+     "options": [
+      "6",
+      "9",
+      "18",
+      "81"
+     ],
+     "answer": 1,
+     "hint": "Take the cube root first, then square.",
+     "explanation": "∛27 = 3, and 3² = 9.",
+     "source": "original",
+     "id": "g10-general-t1-exponents-and-roots-6"
+    }
+   ]
+  },
+  {
+   "id": "polynomials",
+   "name": "Polynomials",
+   "questions": [
+    {
+     "q": "Find the product of (4h + 5) and (h − 6).",
+     "options": [
+      "5h − 1",
+      "4h² − 19h − 30",
+      "4h² − 24h − 30",
+      "4h² − 30"
+     ],
+     "answer": 1,
+     "hint": "Use FOIL: First, Outer, Inner, Last.",
+     "explanation": "4h·h = 4h², 4h·(−6) = −24h, 5·h = 5h, 5·(−6) = −30. Combine −24h + 5h = −19h.",
+     "source": "course",
+     "id": "g10-general-t1-polynomials-1"
+    },
+    {
+     "q": "Factor 6xy − 8x − 15y + 20.",
+     "options": [
+      "(2x + 5)(3y + 4)",
+      "(2x + 5)(3y − 4)",
+      "(2x − 5)(3y + 4)",
+      "(2x − 5)(3y − 4)"
+     ],
+     "answer": 3,
+     "hint": "Group the first two terms and the last two terms.",
+     "explanation": "6xy − 8x = 2x(3y − 4) and −15y + 20 = −5(3y − 4), so the expression is (2x − 5)(3y − 4).",
+     "source": "course",
+     "id": "g10-general-t1-polynomials-2"
+    },
+    {
+     "q": "The area of a rectangle is xy − 2x + 3y − 6. Express this area in factored form.",
+     "options": [
+      "(x + 3)(y − 2)",
+      "(xy − 2x)(3y − 6)",
+      "x(y − 2) + 3(y − 2)",
+      "(x − 2)(y + 3)"
+     ],
+     "answer": 0,
+     "hint": "Factor by grouping, then pull out the common binomial.",
+     "explanation": "x(y − 2) + 3(y − 2) = (x + 3)(y − 2). Option C is grouped but not fully factored.",
+     "source": "course",
+     "id": "g10-general-t1-polynomials-3"
+    },
+    {
+     "q": "Factor x² − 49.",
+     "options": [
+      "(x − 7)²",
+      "(x − 7)(x + 7)",
+      "(x + 7)²",
+      "x(x − 49)"
+     ],
+     "answer": 1,
+     "hint": "This is a difference of two squares.",
+     "explanation": "a² − b² = (a − b)(a + b) with a = x and b = 7.",
+     "source": "original",
+     "id": "g10-general-t1-polynomials-4"
+    },
+    {
+     "q": "Simplify (3x² − 2x + 1) − (x² + 4x − 3).",
+     "options": [
+      "2x² + 2x − 2",
+      "2x² − 6x + 4",
+      "2x² − 6x − 2",
+      "4x² + 2x − 2"
+     ],
+     "answer": 1,
+     "hint": "Distribute the minus sign to every term in the second polynomial.",
+     "explanation": "3x² − x² = 2x², −2x − 4x = −6x, 1 − (−3) = 4.",
+     "source": "original",
+     "id": "g10-general-t1-polynomials-5"
+    },
+    {
+     "q": "What is the degree of the polynomial 4x³y² − 2x + 7?",
+     "options": [
+      "2",
+      "3",
+      "5",
+      "6"
+     ],
+     "answer": 2,
+     "hint": "The degree of a term is the sum of its exponents.",
+     "explanation": "The term 4x³y² has degree 3 + 2 = 5, the highest of all terms.",
+     "source": "original",
+     "id": "g10-general-t1-polynomials-6"
+    }
+   ]
+  },
+  {
+   "id": "quadratic-functions",
+   "name": "Quadratic Functions",
+   "questions": [
+    {
+     "q": "What is the vertex of y = (x − 3)² + 2?",
+     "options": [
+      "(−3, 2)",
+      "(3, 2)",
+      "(3, −2)",
+      "(2, 3)"
+     ],
+     "answer": 1,
+     "hint": "Vertex form is y = (x − h)² + k with vertex (h, k).",
+     "explanation": "h = 3 and k = 2.",
+     "source": "original",
+     "id": "g10-general-t1-quadratic-functions-1"
+    },
+    {
+     "q": "What is the axis of symmetry of y = 2x² − 8x + 1?",
+     "options": [
+      "x = −2",
+      "x = 2",
+      "x = 4",
+      "x = −4"
+     ],
+     "answer": 1,
+     "hint": "x = −b / (2a).",
+     "explanation": "x = 8 / 4 = 2.",
+     "source": "original",
+     "id": "g10-general-t1-quadratic-functions-2"
+    },
+    {
+     "q": "Solve x² − 5x + 6 = 0.",
+     "options": [
+      "x = 2 or 3",
+      "x = −2 or −3",
+      "x = 1 or 6",
+      "x = −1 or 6"
+     ],
+     "answer": 0,
+     "hint": "Find two numbers that multiply to 6 and add to −5.",
+     "explanation": "(x − 2)(x − 3) = 0.",
+     "source": "original",
+     "id": "g10-general-t1-quadratic-functions-3"
+    },
+    {
+     "q": "How many real solutions does x² + 4x + 5 = 0 have?",
+     "options": [
+      "0",
+      "1",
+      "2",
+      "Infinitely many"
+     ],
+     "answer": 0,
+     "hint": "Check the discriminant b² − 4ac.",
+     "explanation": "16 − 20 = −4 < 0, so there are no real solutions.",
+     "source": "original",
+     "id": "g10-general-t1-quadratic-functions-4"
+    },
+    {
+     "q": "What is the maximum value of y = −x² + 6x − 5?",
+     "options": [
+      "3",
+      "4",
+      "5",
+      "9"
+     ],
+     "answer": 1,
+     "hint": "The maximum is at the vertex.",
+     "explanation": "x = −6/(−2) = 3. y = −9 + 18 − 5 = 4.",
+     "source": "original",
+     "id": "g10-general-t1-quadratic-functions-5"
+    }
+   ]
+  }
+ ]
+}

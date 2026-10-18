@@ -1,0 +1,332 @@
+{
+ "tracks": [
+  {
+   "id": "asp",
+   "name": "ASP",
+   "full": "Advanced Science Program"
+  },
+  {
+   "id": "advanced",
+   "name": "Advanced",
+   "full": "Advanced Mathematics"
+  },
+  {
+   "id": "general",
+   "name": "General",
+   "full": "General Mathematics"
+  }
+ ],
+ "terms": [
+  1,
+  2,
+  3
+ ],
+ "grades": [
+  9,
+  10,
+  11,
+  12
+ ],
+ "courses": [
+  {
+   "id": "g9-asp-t1",
+   "grade": 9,
+   "track": "asp",
+   "term": 1,
+   "code": "MAT40A",
+   "title": "ASP Mathematics",
+   "topics": [
+    {
+     "id": "solving-equations-and-inequalities",
+     "name": "Solving Equations and Inequalities",
+     "count": 6
+    },
+    {
+     "id": "linear-equations",
+     "name": "Linear Equations",
+     "count": 6
+    },
+    {
+     "id": "linear-functions",
+     "name": "Linear Functions",
+     "count": 5
+    },
+    {
+     "id": "angles-and-triangles",
+     "name": "Angles and Triangles",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "id": "g9-advanced-t1",
+   "grade": 9,
+   "track": "advanced",
+   "term": 1,
+   "code": "MAT41",
+   "title": "Advanced Mathematics",
+   "topics": [
+    {
+     "id": "equations-in-one-variable",
+     "name": "Equations in One Variable",
+     "count": 6
+    },
+    {
+     "id": "linear-and-nonlinear-functions",
+     "name": "Linear and Nonlinear Functions",
+     "count": 5
+    },
+    {
+     "id": "creating-linear-equations",
+     "name": "Creating Linear Equations",
+     "count": 5
+    },
+    {
+     "id": "linear-inequalities",
+     "name": "Linear Inequalities",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "id": "g10-asp-t1",
+   "grade": 10,
+   "track": "asp",
+   "term": 1,
+   "code": "MAT50A",
+   "title": "ASP Mathematics",
+   "topics": [
+    {
+     "id": "expressions-equations-and-inequalities",
+     "name": "Expressions, Equations and Inequalities",
+     "count": 6
+    },
+    {
+     "id": "functions-and-graphs",
+     "name": "Functions and Graphs",
+     "count": 6
+    },
+    {
+     "id": "polynomial-power-and-rational-functions",
+     "name": "Polynomial, Power and Rational Functions",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "id": "g10-advanced-t1",
+   "grade": 10,
+   "track": "advanced",
+   "term": 1,
+   "code": "MAT51",
+   "title": "Advanced Mathematics",
+   "topics": [
+    {
+     "id": "polynomials",
+     "name": "Polynomials",
+     "count": 5
+    },
+    {
+     "id": "quadrilaterals",
+     "name": "Quadrilaterals",
+     "count": 9
+    },
+    {
+     "id": "similarity",
+     "name": "Similarity",
+     "count": 6
+    },
+    {
+     "id": "right-triangles-and-trigonometry",
+     "name": "Right Triangles and Trigonometry",
+     "count": 7
+    }
+   ]
+  },
+  {
+   "id": "g10-general-t1",
+   "grade": 10,
+   "track": "general",
+   "term": 1,
+   "code": "MAT50",
+   "title": "General Mathematics",
+   "topics": [
+    {
+     "id": "exponents-and-roots",
+     "name": "Exponents and Roots",
+     "count": 6
+    },
+    {
+     "id": "polynomials",
+     "name": "Polynomials",
+     "count": 6
+    },
+    {
+     "id": "quadratic-functions",
+     "name": "Quadratic Functions",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "id": "g11-asp-t1",
+   "grade": 11,
+   "track": "asp",
+   "term": 1,
+   "code": "MAT60A",
+   "title": "ASP Mathematics (Pre-Calculus / Calculus)",
+   "topics": [
+    {
+     "id": "quick-intro-to-calculus",
+     "name": "Quick Intro to Calculus",
+     "count": 5
+    },
+    {
+     "id": "logarithmic-and-exponential-functions",
+     "name": "Logarithmic and Exponential Functions",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "id": "g11-advanced-t1",
+   "grade": 11,
+   "track": "advanced",
+   "term": 1,
+   "code": "MAT61",
+   "title": "Advanced Mathematics",
+   "topics": [
+    {
+     "id": "exponential-functions",
+     "name": "Exponential Functions",
+     "count": 5
+    },
+    {
+     "id": "logarithmic-functions",
+     "name": "Logarithmic Functions",
+     "count": 5
+    },
+    {
+     "id": "rational-functions",
+     "name": "Rational Functions",
+     "count": 5
+    },
+    {
+     "id": "inferential-statistics",
+     "name": "Inferential Statistics",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "id": "g11-general-t1",
+   "grade": 11,
+   "track": "general",
+   "term": 1,
+   "code": "MAT60",
+   "title": "General Mathematics",
+   "topics": [
+    {
+     "id": "similarity",
+     "name": "Similarity",
+     "count": 6
+    },
+    {
+     "id": "right-triangles-and-trigonometry",
+     "name": "Right Triangles and Trigonometry",
+     "count": 7
+    },
+    {
+     "id": "probability",
+     "name": "Probability",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "id": "g12-asp-t1",
+   "grade": 12,
+   "track": "asp",
+   "term": 1,
+   "code": "MAT70A",
+   "title": "ASP Mathematics (Calculus BC)",
+   "topics": [
+    {
+     "id": "integration-and-accumulation-of-change",
+     "name": "Integration and Accumulation of Change",
+     "count": 5
+    },
+    {
+     "id": "differential-equations",
+     "name": "Differential Equations",
+     "count": 5
+    },
+    {
+     "id": "applications-of-integration",
+     "name": "Applications of Integration",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "id": "g12-advanced-t1",
+   "grade": 12,
+   "track": "advanced",
+   "term": 1,
+   "code": "MAT71",
+   "title": "Advanced Mathematics",
+   "topics": [
+    {
+     "id": "polar-coordinates-and-complex-numbers",
+     "name": "Polar Coordinates and Complex Numbers",
+     "count": 5
+    },
+    {
+     "id": "sequences-and-series",
+     "name": "Sequences and Series",
+     "count": 5
+    },
+    {
+     "id": "limits-and-continuity",
+     "name": "Limits and Continuity",
+     "count": 5
+    },
+    {
+     "id": "differentiation",
+     "name": "Differentiation",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "id": "g12-general-t1",
+   "grade": 12,
+   "track": "general",
+   "term": 1,
+   "code": "MAT70",
+   "title": "General Mathematics",
+   "topics": [
+    {
+     "id": "functions-from-a-calculus-perspective",
+     "name": "Functions from a Calculus Perspective",
+     "count": 5
+    },
+    {
+     "id": "exponential-and-logarithmic-functions",
+     "name": "Exponential and Logarithmic Functions",
+     "count": 5
+    },
+    {
+     "id": "trigonometric-identities-and-equations",
+     "name": "Trigonometric Identities and Equations",
+     "count": 5
+    },
+    {
+     "id": "derivatives-and-integration",
+     "name": "Derivatives and Integration",
+     "count": 5
+    }
+   ]
+  }
+ ]
+}

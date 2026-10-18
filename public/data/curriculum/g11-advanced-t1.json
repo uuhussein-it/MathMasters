@@ -1,0 +1,314 @@
+{
+ "id": "g11-advanced-t1",
+ "grade": 11,
+ "track": "advanced",
+ "term": 1,
+ "code": "MAT61",
+ "title": "Advanced Mathematics",
+ "topics": [
+  {
+   "id": "exponential-functions",
+   "name": "Exponential Functions",
+   "questions": [
+    {
+     "q": "What is the range of y = e^(x + 6) + 3?",
+     "options": [
+      "y > 3",
+      "y > −3",
+      "y > 0",
+      "y < 3"
+     ],
+     "answer": 0,
+     "hint": "e to any power is positive. What does +3 do?",
+     "explanation": "e^(x + 6) > 0, so y > 0 + 3 = 3.",
+     "source": "course",
+     "id": "g11-advanced-t1-exponential-functions-1"
+    },
+    {
+     "q": "Which function shows exponential decay?",
+     "options": [
+      "f(x) = 1.25ˣ",
+      "f(x) = 0.75ˣ",
+      "f(x) = 2ˣ",
+      "f(x) = eˣ"
+     ],
+     "answer": 1,
+     "hint": "Decay happens when the base is between 0 and 1.",
+     "explanation": "0 < 0.75 < 1, so 0.75ˣ decreases.",
+     "source": "original",
+     "id": "g11-advanced-t1-exponential-functions-2"
+    },
+    {
+     "q": "What is the initial value of f(x) = 4(1.5)ˣ?",
+     "options": [
+      "1.5",
+      "4",
+      "6",
+      "0"
+     ],
+     "answer": 1,
+     "hint": "Initial value means x = 0.",
+     "explanation": "f(0) = 4 · 1 = 4.",
+     "source": "original",
+     "id": "g11-advanced-t1-exponential-functions-3"
+    },
+    {
+     "q": "A car worth AED 80,000 loses 15% of its value each year. Which function gives its value after t years?",
+     "options": [
+      "V = 80000(0.15)ᵗ",
+      "V = 80000(1.15)ᵗ",
+      "V = 80000(0.85)ᵗ",
+      "V = 80000 − 0.15t"
+     ],
+     "answer": 2,
+     "hint": "Losing 15% keeps 85%.",
+     "explanation": "Each year multiply by 1 − 0.15 = 0.85.",
+     "source": "original",
+     "id": "g11-advanced-t1-exponential-functions-4"
+    },
+    {
+     "q": "Solve 3^(2x) = 81.",
+     "options": [
+      "x = 2",
+      "x = 4",
+      "x = 1",
+      "x = 40.5"
+     ],
+     "answer": 0,
+     "hint": "Write 81 as a power of 3.",
+     "explanation": "81 = 3⁴, so 2x = 4 and x = 2.",
+     "source": "original",
+     "id": "g11-advanced-t1-exponential-functions-5"
+    }
+   ]
+  },
+  {
+   "id": "logarithmic-functions",
+   "name": "Logarithmic Functions",
+   "questions": [
+    {
+     "q": "Solve log₆ x = 3.",
+     "options": [
+      "0.5",
+      "18",
+      "2",
+      "216"
+     ],
+     "answer": 3,
+     "hint": "Rewrite in exponential form.",
+     "explanation": "x = 6³ = 216.",
+     "source": "course",
+     "id": "g11-advanced-t1-logarithmic-functions-1"
+    },
+    {
+     "q": "What is the solution of log(x − 21) = 2 − log x?",
+     "options": [
+      "x = 25",
+      "x = −4",
+      "x = −4 or x = 25",
+      "x = 21"
+     ],
+     "answer": 0,
+     "hint": "Move the logs to one side and use the product rule, then check for extraneous solutions.",
+     "explanation": "log(x(x − 21)) = 2 gives x² − 21x − 100 = 0, so x = 25 or x = −4. log of a negative is undefined, so only x = 25 works.",
+     "source": "course",
+     "id": "g11-advanced-t1-logarithmic-functions-2"
+    },
+    {
+     "q": "If log 7 ≈ 0.8451, what is log 700?",
+     "options": [
+      "1.6902",
+      "2.8451",
+      "84.51",
+      "1.8451"
+     ],
+     "answer": 1,
+     "hint": "700 = 7 × 100.",
+     "explanation": "log 700 = log 7 + log 100 = 0.8451 + 2 = 2.8451.",
+     "source": "course",
+     "id": "g11-advanced-t1-logarithmic-functions-3"
+    },
+    {
+     "q": "Solve 8^(3x) = 71.",
+     "options": [
+      "6.1497",
+      "2.0499",
+      "1.3412",
+      "0.6833"
+     ],
+     "answer": 3,
+     "hint": "Take the log of both sides.",
+     "explanation": "3x = ln 71 / ln 8 ≈ 2.0499, so x ≈ 0.6833.",
+     "source": "course",
+     "id": "g11-advanced-t1-logarithmic-functions-4"
+    },
+    {
+     "q": "Which is the exponential form of log₂ 32 = 5?",
+     "options": [
+      "5² = 32",
+      "2⁵ = 32",
+      "32² = 5",
+      "2³² = 5"
+     ],
+     "answer": 1,
+     "hint": "log_b a = c means bᶜ = a.",
+     "explanation": "Base 2, exponent 5: 2⁵ = 32.",
+     "source": "original",
+     "id": "g11-advanced-t1-logarithmic-functions-5"
+    }
+   ]
+  },
+  {
+   "id": "rational-functions",
+   "name": "Rational Functions",
+   "questions": [
+    {
+     "q": "If y varies directly as x, and y = 12 when x = −3, find y when x = 7.",
+     "options": [
+      "28",
+      "4/7",
+      "−28",
+      "−7/4"
+     ],
+     "answer": 2,
+     "hint": "Direct variation: y = kx.",
+     "explanation": "k = 12 / (−3) = −4, so y = −4 · 7 = −28.",
+     "source": "course",
+     "id": "g11-advanced-t1-rational-functions-1"
+    },
+    {
+     "q": "Amani's pay varies directly with hours worked. She earns AED 640 for 8 hours. How much for 18 hours?",
+     "options": [
+      "AED 144",
+      "AED 1080",
+      "AED 1400",
+      "AED 1440"
+     ],
+     "answer": 3,
+     "hint": "Find the hourly rate k.",
+     "explanation": "k = 640 / 8 = 80, so 18 × 80 = AED 1440.",
+     "source": "course",
+     "id": "g11-advanced-t1-rational-functions-2"
+    },
+    {
+     "q": "What is the vertical asymptote of f(x) = 1/(x + 2)?",
+     "options": [
+      "x = 2",
+      "x = −2",
+      "y = 0",
+      "y = −2"
+     ],
+     "answer": 1,
+     "hint": "Set the denominator to zero.",
+     "explanation": "x + 2 = 0 gives x = −2.",
+     "source": "original",
+     "id": "g11-advanced-t1-rational-functions-3"
+    },
+    {
+     "q": "Simplify (x² − 9)/(x + 3) for x ≠ −3.",
+     "options": [
+      "x + 3",
+      "x − 3",
+      "x − 9",
+      "1/(x − 3)"
+     ],
+     "answer": 1,
+     "hint": "Factor the numerator.",
+     "explanation": "(x − 3)(x + 3)/(x + 3) = x − 3.",
+     "source": "original",
+     "id": "g11-advanced-t1-rational-functions-4"
+    },
+    {
+     "q": "y varies inversely as x, and y = 6 when x = 4. Find y when x = 8.",
+     "options": [
+      "12",
+      "3",
+      "2",
+      "48"
+     ],
+     "answer": 1,
+     "hint": "Inverse variation: xy = k.",
+     "explanation": "k = 24, so y = 24 / 8 = 3.",
+     "source": "original",
+     "id": "g11-advanced-t1-rational-functions-5"
+    }
+   ]
+  },
+  {
+   "id": "inferential-statistics",
+   "name": "Inferential Statistics",
+   "questions": [
+    {
+     "q": "What is the z-score if X = 17, μ = 5 and σ = 2?",
+     "options": [
+      "11",
+      "6",
+      "3.8",
+      "3"
+     ],
+     "answer": 1,
+     "hint": "z = (X − μ) / σ.",
+     "explanation": "(17 − 5) / 2 = 6.",
+     "source": "course",
+     "id": "g11-advanced-t1-inferential-statistics-1"
+    },
+    {
+     "q": "In a normal distribution, about what percent of data lies within 1 standard deviation of the mean?",
+     "options": [
+      "50%",
+      "68%",
+      "95%",
+      "99.7%"
+     ],
+     "answer": 1,
+     "hint": "Recall the 68–95–99.7 rule.",
+     "explanation": "About 68% lies within ±1σ.",
+     "source": "original",
+     "id": "g11-advanced-t1-inferential-statistics-2"
+    },
+    {
+     "q": "Which survey method is most likely to be biased?",
+     "options": [
+      "Randomly choosing 50 students from the school list",
+      "Surveying only robotics club members about the school's favorite activity",
+      "Choosing every 10th student entering school",
+      "Randomly choosing 5 students from each grade"
+     ],
+     "answer": 1,
+     "hint": "Bias happens when the sample does not represent the population.",
+     "explanation": "Robotics club members likely favor robotics, so the sample is not representative.",
+     "source": "original",
+     "id": "g11-advanced-t1-inferential-statistics-3"
+    },
+    {
+     "q": "In a random sample of 400 students, 240 prefer online homework. What is the sample proportion?",
+     "options": [
+      "0.24",
+      "0.4",
+      "0.6",
+      "1.67"
+     ],
+     "answer": 2,
+     "hint": "p̂ = number with the trait ÷ sample size.",
+     "explanation": "240 / 400 = 0.6.",
+     "source": "original",
+     "id": "g11-advanced-t1-inferential-statistics-4"
+    },
+    {
+     "q": "Using the estimate margin of error ≈ 1/√n, what is the margin of error for a sample of 400?",
+     "options": [
+      "2.5%",
+      "5%",
+      "10%",
+      "20%"
+     ],
+     "answer": 1,
+     "hint": "√400 = 20.",
+     "explanation": "1/20 = 0.05 = 5%.",
+     "source": "original",
+     "id": "g11-advanced-t1-inferential-statistics-5"
+    }
+   ]
+  }
+ ]
+}

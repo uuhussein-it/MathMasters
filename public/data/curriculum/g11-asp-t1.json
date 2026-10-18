@@ -1,0 +1,162 @@
+{
+ "id": "g11-asp-t1",
+ "grade": 11,
+ "track": "asp",
+ "term": 1,
+ "code": "MAT60A",
+ "title": "ASP Mathematics (Pre-Calculus / Calculus)",
+ "topics": [
+  {
+   "id": "quick-intro-to-calculus",
+   "name": "Quick Intro to Calculus",
+   "questions": [
+    {
+     "q": "What is the derivative of x³?",
+     "options": [
+      "x²",
+      "3x²",
+      "3x³",
+      "x⁴/4"
+     ],
+     "answer": 1,
+     "hint": "Power rule: bring the exponent down and subtract one.",
+     "explanation": "d/dx xⁿ = n xⁿ⁻¹, so 3x².",
+     "source": "original",
+     "id": "g11-asp-t1-quick-intro-to-calculus-1"
+    },
+    {
+     "q": "Find d/dx (5x² − 3x + 2).",
+     "options": [
+      "10x − 3",
+      "5x − 3",
+      "10x + 2",
+      "10x² − 3"
+     ],
+     "answer": 0,
+     "hint": "Differentiate term by term; constants vanish.",
+     "explanation": "10x − 3 + 0.",
+     "source": "original",
+     "id": "g11-asp-t1-quick-intro-to-calculus-2"
+    },
+    {
+     "q": "A particle's position is x(t) = 4t² + 2t. What is its velocity at t = 3?",
+     "options": [
+      "26",
+      "42",
+      "24",
+      "14"
+     ],
+     "answer": 0,
+     "hint": "Velocity is the derivative of position.",
+     "explanation": "v(t) = 8t + 2, so v(3) = 26.",
+     "source": "original",
+     "id": "g11-asp-t1-quick-intro-to-calculus-3"
+    },
+    {
+     "q": "Evaluate ∫ 2x dx.",
+     "options": [
+      "2x² + C",
+      "x² + C",
+      "x²",
+      "2 + C"
+     ],
+     "answer": 1,
+     "hint": "Reverse the power rule.",
+     "explanation": "The antiderivative of 2x is x², plus a constant C.",
+     "source": "original",
+     "id": "g11-asp-t1-quick-intro-to-calculus-4"
+    },
+    {
+     "q": "What is the slope of the tangent line to y = x² at x = 4?",
+     "options": [
+      "4",
+      "8",
+      "16",
+      "2"
+     ],
+     "answer": 1,
+     "hint": "The slope of the tangent is the derivative.",
+     "explanation": "y′ = 2x, so at x = 4 the slope is 8.",
+     "source": "original",
+     "id": "g11-asp-t1-quick-intro-to-calculus-5"
+    }
+   ]
+  },
+  {
+   "id": "logarithmic-and-exponential-functions",
+   "name": "Logarithmic and Exponential Functions",
+   "questions": [
+    {
+     "q": "A bacterium grows from 5,000 cells to 12,000 cells in 10 hours. At this rate, about how many cells will there be after 36 hours?",
+     "options": [
+      "98,365",
+      "116,877",
+      "154,324",
+      "197,633"
+     ],
+     "answer": 1,
+     "hint": "Model N = 5000 · (12000/5000)^(t/10).",
+     "explanation": "N = 5000 · 2.4^3.6 ≈ 5000 × 23.38 ≈ 116,877.",
+     "source": "course",
+     "id": "g11-asp-t1-logarithmic-and-exponential-functions-1"
+    },
+    {
+     "q": "A substance has a half-life of 30 days and 240 g is present initially. After how many days will only 20 g remain?",
+     "options": [
+      "97.891",
+      "107.549",
+      "120",
+      "137.549"
+     ],
+     "answer": 1,
+     "hint": "Solve 240(½)^(t/30) = 20.",
+     "explanation": "(½)^(t/30) = 1/12, so t = 30 · log(12)/log(2) ≈ 107.549 days.",
+     "source": "course",
+     "id": "g11-asp-t1-logarithmic-and-exponential-functions-2"
+    },
+    {
+     "q": "If log_b(4) = n and log_b(5) = m, then log_b(80) = ?",
+     "options": [
+      "2n − m",
+      "n² + m",
+      "n + 2m",
+      "2n + m"
+     ],
+     "answer": 3,
+     "hint": "80 = 16 × 5 = 4² × 5.",
+     "explanation": "log_b 80 = 2 log_b 4 + log_b 5 = 2n + m.",
+     "source": "course",
+     "id": "g11-asp-t1-logarithmic-and-exponential-functions-3"
+    },
+    {
+     "q": "Solve 2^(x + 1) = 32.",
+     "options": [
+      "3",
+      "4",
+      "5",
+      "16"
+     ],
+     "answer": 1,
+     "hint": "Write 32 as a power of 2.",
+     "explanation": "32 = 2⁵, so x + 1 = 5 and x = 4.",
+     "source": "original",
+     "id": "g11-asp-t1-logarithmic-and-exponential-functions-4"
+    },
+    {
+     "q": "Simplify ln(e⁵).",
+     "options": [
+      "e",
+      "5",
+      "5e",
+      "1/5"
+     ],
+     "answer": 1,
+     "hint": "ln and e^x are inverse functions.",
+     "explanation": "ln(e⁵) = 5.",
+     "source": "original",
+     "id": "g11-asp-t1-logarithmic-and-exponential-functions-5"
+    }
+   ]
+  }
+ ]
+}

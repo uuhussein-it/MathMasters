@@ -1,0 +1,238 @@
+{
+ "id": "g12-asp-t1",
+ "grade": 12,
+ "track": "asp",
+ "term": 1,
+ "code": "MAT70A",
+ "title": "ASP Mathematics (Calculus BC)",
+ "topics": [
+  {
+   "id": "integration-and-accumulation-of-change",
+   "name": "Integration and Accumulation of Change",
+   "questions": [
+    {
+     "q": "Evaluate ∫ (3x² + 2) dx.",
+     "options": [
+      "x³ + 2x + C",
+      "6x + C",
+      "3x³ + 2x + C",
+      "x³ + C"
+     ],
+     "answer": 0,
+     "hint": "Integrate term by term.",
+     "explanation": "∫3x² dx = x³ and ∫2 dx = 2x.",
+     "source": "original",
+     "id": "g12-asp-t1-integration-and-accumulation-of-change-1"
+    },
+    {
+     "q": "Evaluate the definite integral of x from 0 to 2.",
+     "options": [
+      "1",
+      "2",
+      "4",
+      "½"
+     ],
+     "answer": 1,
+     "hint": "Antiderivative x²/2, then subtract.",
+     "explanation": "(2²/2) − 0 = 2.",
+     "source": "original",
+     "id": "g12-asp-t1-integration-and-accumulation-of-change-2"
+    },
+    {
+     "q": "If F(x) = ∫ from 1 to x of t² dt, what is F′(x)?",
+     "options": [
+      "x² − 1",
+      "x²",
+      "x³/3",
+      "2x"
+     ],
+     "answer": 1,
+     "hint": "Fundamental Theorem of Calculus, part 1.",
+     "explanation": "The derivative of an accumulation function is the integrand evaluated at x.",
+     "source": "original",
+     "id": "g12-asp-t1-integration-and-accumulation-of-change-3"
+    },
+    {
+     "q": "Evaluate ∫ 2x · e^(x²) dx.",
+     "options": [
+      "e^(x²) + C",
+      "2e^(x²) + C",
+      "x²e^(x²) + C",
+      "e^(2x) + C"
+     ],
+     "answer": 0,
+     "hint": "Try u-substitution with u = x².",
+     "explanation": "du = 2x dx, so ∫ eᵘ du = eᵘ + C = e^(x²) + C.",
+     "source": "original",
+     "id": "g12-asp-t1-integration-and-accumulation-of-change-4"
+    },
+    {
+     "q": "Evaluate the improper integral of 1/x² from 1 to ∞.",
+     "options": [
+      "0",
+      "1",
+      "2",
+      "Diverges"
+     ],
+     "answer": 1,
+     "hint": "Antiderivative −1/x, then take the limit.",
+     "explanation": "lim (−1/b + 1) as b → ∞ = 1.",
+     "source": "original",
+     "id": "g12-asp-t1-integration-and-accumulation-of-change-5"
+    }
+   ]
+  },
+  {
+   "id": "differential-equations",
+   "name": "Differential Equations",
+   "questions": [
+    {
+     "q": "What is the general solution of dy/dx = 2x?",
+     "options": [
+      "y = 2",
+      "y = x² + C",
+      "y = 2x² + C",
+      "y = Ce^(2x)"
+     ],
+     "answer": 1,
+     "hint": "Integrate both sides.",
+     "explanation": "y = ∫2x dx = x² + C.",
+     "source": "original",
+     "id": "g12-asp-t1-differential-equations-1"
+    },
+    {
+     "q": "Which function is a solution of y′ = y?",
+     "options": [
+      "y = x²",
+      "y = 3eˣ",
+      "y = ln x",
+      "y = e^(2x)"
+     ],
+     "answer": 1,
+     "hint": "The function must equal its own derivative.",
+     "explanation": "(3eˣ)′ = 3eˣ.",
+     "source": "original",
+     "id": "g12-asp-t1-differential-equations-2"
+    },
+    {
+     "q": "Find the particular solution of dy/dx = 3y with y(0) = 2.",
+     "options": [
+      "y = 3e^(2x)",
+      "y = 2e^(3x)",
+      "y = e^(3x) + 1",
+      "y = 2 + 3x"
+     ],
+     "answer": 1,
+     "hint": "Separate variables: dy/y = 3 dx.",
+     "explanation": "y = Ce^(3x); y(0) = 2 gives C = 2.",
+     "source": "original",
+     "id": "g12-asp-t1-differential-equations-3"
+    },
+    {
+     "q": "Use Euler's method with step 0.1 for dy/dx = x + y, y(0) = 1. Approximate y(0.1).",
+     "options": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.11"
+     ],
+     "answer": 1,
+     "hint": "yₙ₊₁ = yₙ + h · f(xₙ, yₙ).",
+     "explanation": "y₁ = 1 + 0.1(0 + 1) = 1.1.",
+     "source": "original",
+     "id": "g12-asp-t1-differential-equations-4"
+    },
+    {
+     "q": "For the logistic model dP/dt = 0.2P(1 − P/500), what is the carrying capacity?",
+     "options": [
+      "0.2",
+      "100",
+      "250",
+      "500"
+     ],
+     "answer": 3,
+     "hint": "The carrying capacity is where growth stops.",
+     "explanation": "dP/dt = 0 when P = 500.",
+     "source": "original",
+     "id": "g12-asp-t1-differential-equations-5"
+    }
+   ]
+  },
+  {
+   "id": "applications-of-integration",
+   "name": "Applications of Integration",
+   "questions": [
+    {
+     "q": "What is the average value of f(x) = x² on [0, 3]?",
+     "options": [
+      "1",
+      "3",
+      "9",
+      "4.5"
+     ],
+     "answer": 1,
+     "hint": "Average = (1/(b − a)) ∫ f(x) dx.",
+     "explanation": "(1/3) · (27/3) = 3.",
+     "source": "original",
+     "id": "g12-asp-t1-applications-of-integration-1"
+    },
+    {
+     "q": "A particle has velocity v(t) = 3t². What is its displacement from t = 0 to t = 2?",
+     "options": [
+      "6",
+      "8",
+      "12",
+      "4"
+     ],
+     "answer": 1,
+     "hint": "Displacement = ∫ v(t) dt.",
+     "explanation": "[t³] from 0 to 2 = 8.",
+     "source": "original",
+     "id": "g12-asp-t1-applications-of-integration-2"
+    },
+    {
+     "q": "Find the area between y = x and y = x² from x = 0 to x = 1.",
+     "options": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "1"
+     ],
+     "answer": 2,
+     "hint": "Integrate (top − bottom).",
+     "explanation": "∫(x − x²) dx = 1/2 − 1/3 = 1/6.",
+     "source": "original",
+     "id": "g12-asp-t1-applications-of-integration-3"
+    },
+    {
+     "q": "A tank holds 10 L. Water flows in at r(t) = 4t L/min. How much water is in the tank after 3 minutes?",
+     "options": [
+      "22 L",
+      "28 L",
+      "18 L",
+      "46 L"
+     ],
+     "answer": 1,
+     "hint": "Amount = initial + ∫ rate.",
+     "explanation": "10 + [2t²] from 0 to 3 = 10 + 18 = 28 L.",
+     "source": "original",
+     "id": "g12-asp-t1-applications-of-integration-4"
+    },
+    {
+     "q": "Find the volume when y = √x on [0, 4] is rotated about the x-axis.",
+     "options": [
+      "4π",
+      "8π",
+      "16π",
+      "32π/3"
+     ],
+     "answer": 1,
+     "hint": "Disc method: V = π ∫ y² dx.",
+     "explanation": "π ∫₀⁴ x dx = π · 8 = 8π.",
+     "source": "original",
+     "id": "g12-asp-t1-applications-of-integration-5"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "questlearn",
+  "version": "1.0.0",
+  "description": "Gamified quiz and practice platform for Grades 9-12 math and SAT preparation.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node scripts/check-banks.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "license": "UNLICENSED"
+}

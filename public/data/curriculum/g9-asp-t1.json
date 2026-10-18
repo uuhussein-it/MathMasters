@@ -1,0 +1,356 @@
+{
+ "id": "g9-asp-t1",
+ "grade": 9,
+ "track": "asp",
+ "term": 1,
+ "code": "MAT40A",
+ "title": "ASP Mathematics",
+ "topics": [
+  {
+   "id": "solving-equations-and-inequalities",
+   "name": "Solving Equations and Inequalities",
+   "questions": [
+    {
+     "q": "Solve 5x − 10 + x = 4(x − 4) + 9.",
+     "options": [
+      "2.5",
+      "2",
+      "1.5",
+      "1"
+     ],
+     "answer": 2,
+     "hint": "Combine like terms on each side before moving variables.",
+     "explanation": "6x − 10 = 4x − 7, so 2x = 3 and x = 1.5.",
+     "source": "course",
+     "id": "g9-asp-t1-solving-equations-and-inequalities-1"
+    },
+    {
+     "q": "How many solutions does 2x + 2(2x + 5) = 2(x − 1) have?",
+     "options": [
+      "No solution",
+      "Exactly one solution",
+      "Two solutions",
+      "Infinitely many solutions"
+     ],
+     "answer": 1,
+     "hint": "Simplify both sides and see what happens to x.",
+     "explanation": "6x + 10 = 2x − 2, so 4x = −12 and x = −3: exactly one solution.",
+     "source": "course",
+     "id": "g9-asp-t1-solving-equations-and-inequalities-2"
+    },
+    {
+     "q": "If 1 foot ≈ 0.305 meter, approximately how many feet are in 8 meters?",
+     "options": [
+      "2.44",
+      "2.62",
+      "24.4",
+      "26.2"
+     ],
+     "answer": 3,
+     "hint": "More feet than meters: divide by 0.305.",
+     "explanation": "8 ÷ 0.305 ≈ 26.2 feet.",
+     "source": "course",
+     "id": "g9-asp-t1-solving-equations-and-inequalities-3"
+    },
+    {
+     "q": "Solve the compound inequality 5x − 7 ≤ 13 or −4x + 3 > 11.",
+     "options": [
+      "x > −2",
+      "x ≤ 4",
+      "−2 < x ≤ 4",
+      "x < −2 or x ≥ 4"
+     ],
+     "answer": 1,
+     "hint": "Solve each part, remembering to flip the sign when dividing by a negative. \"Or\" means union.",
+     "explanation": "x ≤ 4 or x < −2. Every x < −2 is already ≤ 4, so the union is x ≤ 4.",
+     "source": "course",
+     "id": "g9-asp-t1-solving-equations-and-inequalities-4"
+    },
+    {
+     "q": "Solve |x − 3| = 7.",
+     "options": [
+      "x = 10 or x = −4",
+      "x = 10",
+      "x = 4 or x = −10",
+      "x = −4"
+     ],
+     "answer": 0,
+     "hint": "An absolute value equation splits into two cases.",
+     "explanation": "x − 3 = 7 gives x = 10; x − 3 = −7 gives x = −4.",
+     "source": "original",
+     "id": "g9-asp-t1-solving-equations-and-inequalities-5"
+    },
+    {
+     "q": "Solve −3x + 5 > 17.",
+     "options": [
+      "x > −4",
+      "x < −4",
+      "x > 4",
+      "x < 4"
+     ],
+     "answer": 1,
+     "hint": "Dividing by a negative number flips the inequality.",
+     "explanation": "−3x > 12, so x < −4.",
+     "source": "original",
+     "id": "g9-asp-t1-solving-equations-and-inequalities-6"
+    }
+   ]
+  },
+  {
+   "id": "linear-equations",
+   "name": "Linear Equations",
+   "questions": [
+    {
+     "q": "Which best describes the slope of a horizontal line?",
+     "options": [
+      "0",
+      "Positive",
+      "Negative",
+      "Undefined"
+     ],
+     "answer": 0,
+     "hint": "Rise over run: a horizontal line never rises.",
+     "explanation": "Rise = 0, so slope = 0 / run = 0.",
+     "source": "course",
+     "id": "g9-asp-t1-linear-equations-1"
+    },
+    {
+     "q": "If the line Ax + By = C is vertical, then:",
+     "options": [
+      "A = 0 and the slope is 0",
+      "B = 0 and the slope is 0",
+      "A = 0 and the slope is undefined",
+      "B = 0 and the slope is undefined"
+     ],
+     "answer": 3,
+     "hint": "A vertical line has the form x = constant.",
+     "explanation": "With B = 0 the equation becomes x = C/A, a vertical line with undefined slope.",
+     "source": "course",
+     "id": "g9-asp-t1-linear-equations-2"
+    },
+    {
+     "q": "Tickets cost $35 for adults and $20 for children. The equation 35x + 20y = 140 shows how many adults x and children y can visit with $140. If no adults go, how many children can go?",
+     "options": [
+      "7",
+      "5",
+      "4",
+      "2"
+     ],
+     "answer": 0,
+     "hint": "No adults means x = 0.",
+     "explanation": "20y = 140, so y = 7.",
+     "source": "course",
+     "id": "g9-asp-t1-linear-equations-3"
+    },
+    {
+     "q": "Ali can buy 4 pounds of wheat flour for $8 and 5 pounds of rye flour for $20. He has $12 to spend on a mixture. If x is pounds of wheat and y is pounds of rye, which equation models the situation?",
+     "options": [
+      "2x + 4y = 12",
+      "8x + 20y = 12",
+      "4x + 5y = 20",
+      "2x + 4y = 20"
+     ],
+     "answer": 0,
+     "hint": "Find the price per pound of each flour first.",
+     "explanation": "Wheat costs $8/4 = $2 per pound and rye $20/5 = $4 per pound, so 2x + 4y = 12.",
+     "source": "course",
+     "id": "g9-asp-t1-linear-equations-4"
+    },
+    {
+     "q": "What is the slope of the line through (2, 5) and (6, 13)?",
+     "options": [
+      "2",
+      "½",
+      "−2",
+      "4"
+     ],
+     "answer": 0,
+     "hint": "Slope = (y₂ − y₁) / (x₂ − x₁).",
+     "explanation": "(13 − 5) / (6 − 2) = 8 / 4 = 2.",
+     "source": "original",
+     "id": "g9-asp-t1-linear-equations-5"
+    },
+    {
+     "q": "Write 3x − 2y = 8 in slope-intercept form.",
+     "options": [
+      "y = (3/2)x − 4",
+      "y = −(3/2)x + 4",
+      "y = (3/2)x + 4",
+      "y = (2/3)x − 4"
+     ],
+     "answer": 0,
+     "hint": "Isolate y.",
+     "explanation": "−2y = −3x + 8, so y = (3/2)x − 4.",
+     "source": "original",
+     "id": "g9-asp-t1-linear-equations-6"
+    }
+   ]
+  },
+  {
+   "id": "linear-functions",
+   "name": "Linear Functions",
+   "questions": [
+    {
+     "q": "Given the relation {(3, −2), (1, 0), (−2, 4), (3, 1)}, state the domain (D) and range (R).",
+     "options": [
+      "D = {−2, 0, 1, 4}; R = {−2, 1, 3}",
+      "D = {−2, 1, 3}; R = {−2, 0, 1, 4}",
+      "D = {0, −2, 1}; R = {−2, 1, 3, 4}",
+      "D = {−2, 1, 3, 4}; R = {0, −2, 1}"
+     ],
+     "answer": 1,
+     "hint": "Domain = all x-values, range = all y-values.",
+     "explanation": "x-values: 3, 1, −2, 3 → {−2, 1, 3}. y-values: −2, 0, 4, 1 → {−2, 0, 1, 4}.",
+     "source": "course",
+     "id": "g9-asp-t1-linear-functions-1"
+    },
+    {
+     "q": "Given f(x) = 3(x + 1) − 2, evaluate f(5).",
+     "options": [
+      "14",
+      "15",
+      "16",
+      "17"
+     ],
+     "answer": 2,
+     "hint": "Replace x with 5.",
+     "explanation": "f(5) = 3(6) − 2 = 16.",
+     "source": "course",
+     "id": "g9-asp-t1-linear-functions-2"
+    },
+    {
+     "q": "Is the relation {(1, 2), (2, 4), (1, 5)} a function?",
+     "options": [
+      "Yes, every y is different",
+      "No, the input 1 has two outputs",
+      "Yes, it has three ordered pairs",
+      "No, the outputs are not in order"
+     ],
+     "answer": 1,
+     "hint": "A function gives exactly one output for each input.",
+     "explanation": "x = 1 is paired with both 2 and 5, so it is not a function.",
+     "source": "original",
+     "id": "g9-asp-t1-linear-functions-3"
+    },
+    {
+     "q": "If f(x) = −2x + 7, for what value of x is f(x) = −1?",
+     "options": [
+      "3",
+      "4",
+      "−4",
+      "9"
+     ],
+     "answer": 1,
+     "hint": "Set −2x + 7 equal to −1.",
+     "explanation": "−2x = −8, so x = 4.",
+     "source": "original",
+     "id": "g9-asp-t1-linear-functions-4"
+    },
+    {
+     "q": "Which formula gives the nth term of the arithmetic sequence 4, 9, 14, 19, …?",
+     "options": [
+      "aₙ = 5n − 1",
+      "aₙ = 4n + 5",
+      "aₙ = 5n + 4",
+      "aₙ = n + 5"
+     ],
+     "answer": 0,
+     "hint": "aₙ = a₁ + (n − 1)d.",
+     "explanation": "a₁ = 4 and d = 5, so aₙ = 4 + 5(n − 1) = 5n − 1.",
+     "source": "original",
+     "id": "g9-asp-t1-linear-functions-5"
+    }
+   ]
+  },
+  {
+   "id": "angles-and-triangles",
+   "name": "Angles and Triangles",
+   "questions": [
+    {
+     "q": "Which three lengths CANNOT be the side lengths of a triangle?",
+     "options": [
+      "25, 16, 10",
+      "15, 13, 12",
+      "18, 5, 10",
+      "8, 8, 15"
+     ],
+     "answer": 2,
+     "hint": "Triangle Inequality: the two shorter sides must add to more than the longest.",
+     "explanation": "5 + 10 = 15, which is less than 18.",
+     "source": "course",
+     "id": "g9-asp-t1-angles-and-triangles-1"
+    },
+    {
+     "q": "Two sides of △LMN measure 9 and 17. What is the possible range for the third side, LM?",
+     "options": [
+      "8 < LM < 26",
+      "8 > LM > 26",
+      "LM > 8",
+      "LM < 26"
+     ],
+     "answer": 0,
+     "hint": "The third side is between the difference and the sum of the other two.",
+     "explanation": "17 − 9 = 8 and 17 + 9 = 26, so 8 < LM < 26.",
+     "source": "course",
+     "id": "g9-asp-t1-angles-and-triangles-2"
+    },
+    {
+     "q": "The angles of a triangle are in the ratio 2 : 3 : 4. What is the largest angle?",
+     "options": [
+      "60°",
+      "80°",
+      "90°",
+      "100°"
+     ],
+     "answer": 1,
+     "hint": "The angles add to 180°.",
+     "explanation": "2 + 3 + 4 = 9 parts, each 20°. Largest = 4 × 20° = 80°.",
+     "source": "original",
+     "id": "g9-asp-t1-angles-and-triangles-3"
+    },
+    {
+     "q": "An exterior angle of a triangle measures 120°. One remote interior angle is 45°. What is the other remote interior angle?",
+     "options": [
+      "45°",
+      "60°",
+      "75°",
+      "135°"
+     ],
+     "answer": 2,
+     "hint": "Exterior angle = sum of the two remote interior angles.",
+     "explanation": "120° − 45° = 75°.",
+     "source": "original",
+     "id": "g9-asp-t1-angles-and-triangles-4"
+    },
+    {
+     "q": "An isosceles triangle has a vertex angle of 40°. What is each base angle?",
+     "options": [
+      "40°",
+      "70°",
+      "80°",
+      "140°"
+     ],
+     "answer": 1,
+     "hint": "The two base angles are equal.",
+     "explanation": "(180° − 40°) / 2 = 70°.",
+     "source": "original",
+     "id": "g9-asp-t1-angles-and-triangles-5"
+    },
+    {
+     "q": "In △ABC, AB = 7, BC = 10 and AC = 12. Which angle is the largest?",
+     "options": [
+      "∠A",
+      "∠B",
+      "∠C",
+      "They are equal"
+     ],
+     "answer": 1,
+     "hint": "The largest angle is opposite the longest side.",
+     "explanation": "AC is longest, and ∠B is opposite AC.",
+     "source": "original",
+     "id": "g9-asp-t1-angles-and-triangles-6"
+    }
+   ]
+  }
+ ]
+}

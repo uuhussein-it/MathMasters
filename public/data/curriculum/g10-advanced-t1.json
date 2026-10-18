@@ -1,0 +1,412 @@
+{
+ "id": "g10-advanced-t1",
+ "grade": 10,
+ "track": "advanced",
+ "term": 1,
+ "code": "MAT51",
+ "title": "Advanced Mathematics",
+ "topics": [
+  {
+   "id": "polynomials",
+   "name": "Polynomials",
+   "questions": [
+    {
+     "q": "Find the product of (4h + 5) and (h − 6).",
+     "options": [
+      "5h − 1",
+      "4h² − 19h − 30",
+      "4h² − 24h − 30",
+      "4h² − 30"
+     ],
+     "answer": 1,
+     "hint": "Use FOIL: First, Outer, Inner, Last.",
+     "explanation": "4h·h = 4h², 4h·(−6) = −24h, 5·h = 5h, 5·(−6) = −30. Combine −24h + 5h = −19h.",
+     "source": "course",
+     "id": "g10-advanced-t1-polynomials-1"
+    },
+    {
+     "q": "Factor 6xy − 8x − 15y + 20.",
+     "options": [
+      "(2x + 5)(3y + 4)",
+      "(2x + 5)(3y − 4)",
+      "(2x − 5)(3y + 4)",
+      "(2x − 5)(3y − 4)"
+     ],
+     "answer": 3,
+     "hint": "Group the first two terms and the last two terms.",
+     "explanation": "6xy − 8x = 2x(3y − 4) and −15y + 20 = −5(3y − 4), so the expression is (2x − 5)(3y − 4).",
+     "source": "course",
+     "id": "g10-advanced-t1-polynomials-2"
+    },
+    {
+     "q": "The area of a rectangle is xy − 2x + 3y − 6. Express this area in factored form.",
+     "options": [
+      "(x + 3)(y − 2)",
+      "(xy − 2x)(3y − 6)",
+      "x(y − 2) + 3(y − 2)",
+      "(x − 2)(y + 3)"
+     ],
+     "answer": 0,
+     "hint": "Factor by grouping, then pull out the common binomial.",
+     "explanation": "x(y − 2) + 3(y − 2) = (x + 3)(y − 2). Option C is grouped but not fully factored.",
+     "source": "course",
+     "id": "g10-advanced-t1-polynomials-3"
+    },
+    {
+     "q": "Factor x² − 49.",
+     "options": [
+      "(x − 7)²",
+      "(x − 7)(x + 7)",
+      "(x + 7)²",
+      "x(x − 49)"
+     ],
+     "answer": 1,
+     "hint": "This is a difference of two squares.",
+     "explanation": "a² − b² = (a − b)(a + b) with a = x and b = 7.",
+     "source": "original",
+     "id": "g10-advanced-t1-polynomials-4"
+    },
+    {
+     "q": "Simplify (3x² − 2x + 1) − (x² + 4x − 3).",
+     "options": [
+      "2x² + 2x − 2",
+      "2x² − 6x + 4",
+      "2x² − 6x − 2",
+      "4x² + 2x − 2"
+     ],
+     "answer": 1,
+     "hint": "Distribute the minus sign to every term in the second polynomial.",
+     "explanation": "3x² − x² = 2x², −2x − 4x = −6x, 1 − (−3) = 4.",
+     "source": "original",
+     "id": "g10-advanced-t1-polynomials-5"
+    }
+   ]
+  },
+  {
+   "id": "quadrilaterals",
+   "name": "Quadrilaterals",
+   "questions": [
+    {
+     "q": "What is the sum of the interior angles of a hexagon?",
+     "options": [
+      "360°",
+      "540°",
+      "720°",
+      "1080°"
+     ],
+     "answer": 2,
+     "hint": "Sum = (n − 2) × 180°.",
+     "explanation": "(6 − 2) × 180° = 720°.",
+     "source": "course",
+     "id": "g10-advanced-t1-quadrilaterals-1"
+    },
+    {
+     "q": "Each interior angle of a regular polygon is 156°. How many sides does it have?",
+     "options": [
+      "11",
+      "14",
+      "15",
+      "17"
+     ],
+     "answer": 2,
+     "hint": "Use the exterior angle: 180° − interior.",
+     "explanation": "Exterior = 24°, and 360° / 24° = 15 sides.",
+     "source": "course",
+     "id": "g10-advanced-t1-quadrilaterals-2"
+    },
+    {
+     "q": "Which statement proves that a quadrilateral is a parallelogram?",
+     "options": [
+      "Both pairs of opposite angles are congruent.",
+      "One pair of opposite sides is congruent.",
+      "The diagonals are congruent.",
+      "The diagonals are perpendicular."
+     ],
+     "answer": 0,
+     "hint": "Only one choice is a parallelogram test on its own.",
+     "explanation": "If both pairs of opposite angles are congruent, the quadrilateral is a parallelogram.",
+     "source": "course",
+     "id": "g10-advanced-t1-quadrilaterals-3"
+    },
+    {
+     "q": "Parallelogram ABCD has vertices A(0, 0), B(2, 4), C(x, y) and D(5, 0). What are the coordinates of C?",
+     "options": [
+      "(7, 4)",
+      "(7, −4)",
+      "(−7, −4)",
+      "(−7, 4)"
+     ],
+     "answer": 0,
+     "hint": "Moving from A to B is the same as moving from D to C.",
+     "explanation": "A → B is (+2, +4), so C = D + (2, 4) = (7, 4).",
+     "source": "course",
+     "id": "g10-advanced-t1-quadrilaterals-4"
+    },
+    {
+     "q": "Parallelogram EFGH has vertices E(1, 3), F(3, 5) and G(4, 2). What are the coordinates of H?",
+     "options": [
+      "(0, 1)",
+      "(2, 2)",
+      "(0, 2)",
+      "(2, 0)"
+     ],
+     "answer": 3,
+     "hint": "Diagonals bisect each other, so H = E + G − F.",
+     "explanation": "H = (1 + 4 − 3, 3 + 2 − 5) = (2, 0).",
+     "source": "course",
+     "id": "g10-advanced-t1-quadrilaterals-5"
+    },
+    {
+     "q": "In parallelogram ABCD, C is (5, 4) and the diagonals intersect at (2, 7). What are the coordinates of A?",
+     "options": [
+      "(3, −3)",
+      "(7, 11)",
+      "(−1, 10)",
+      "(3.5, 5.5)"
+     ],
+     "answer": 2,
+     "hint": "The intersection is the midpoint of AC.",
+     "explanation": "A = 2(2, 7) − (5, 4) = (−1, 10).",
+     "source": "course",
+     "id": "g10-advanced-t1-quadrilaterals-6"
+    },
+    {
+     "q": "PQRS is a rhombus with m∠QPR = 25°. Find m∠PQR.",
+     "options": [
+      "130°",
+      "65°",
+      "140°",
+      "125°"
+     ],
+     "answer": 0,
+     "hint": "Diagonals of a rhombus bisect its angles; consecutive angles are supplementary.",
+     "explanation": "∠QPS = 2 × 25° = 50°, so ∠PQR = 180° − 50° = 130°.",
+     "source": "course",
+     "id": "g10-advanced-t1-quadrilaterals-7"
+    },
+    {
+     "q": "VY is the midsegment of a trapezoid with bases FE = 2x + 2 and CD = 5x − 10. If VY = 17, find x.",
+     "options": [
+      "9",
+      "7.5",
+      "6",
+      "10.5"
+     ],
+     "answer": 2,
+     "hint": "Midsegment = average of the bases.",
+     "explanation": "(2x + 2 + 5x − 10)/2 = 17 → 7x − 8 = 34 → x = 6.",
+     "source": "course",
+     "id": "g10-advanced-t1-quadrilaterals-8"
+    },
+    {
+     "q": "ABCD is a rectangle with diagonals meeting at E. If AC = 3x − 11 and BE = x + 5, what is BD?",
+     "options": [
+      "21",
+      "52",
+      "54",
+      "22"
+     ],
+     "answer": 1,
+     "hint": "Rectangle diagonals are congruent and bisect each other.",
+     "explanation": "AC = 2·BE: 3x − 11 = 2x + 10 → x = 21. BD = AC = 52.",
+     "source": "course",
+     "id": "g10-advanced-t1-quadrilaterals-9"
+    }
+   ]
+  },
+  {
+   "id": "similarity",
+   "name": "Similarity",
+   "questions": [
+    {
+     "q": "In △ABC, AB = 3 cm, BC = 2 cm and CA = 2.5 cm. If △ABC ∼ △DEF and EF = 4 cm, what is the perimeter of △DEF?",
+     "options": [
+      "15 cm",
+      "7.5 cm",
+      "22.5 cm",
+      "30 cm"
+     ],
+     "answer": 0,
+     "hint": "BC corresponds to EF. Find the scale factor first.",
+     "explanation": "Scale factor = EF / BC = 4 / 2 = 2. Perimeter of ABC = 7.5 cm, so DEF = 2 × 7.5 = 15 cm.",
+     "source": "course",
+     "id": "g10-advanced-t1-similarity-1"
+    },
+    {
+     "q": "DE is a midsegment of △ABC, parallel to BC. If BC = 26, what is DE?",
+     "options": [
+      "26",
+      "13",
+      "6.5",
+      "52"
+     ],
+     "answer": 1,
+     "hint": "A midsegment is half the length of the side it is parallel to.",
+     "explanation": "Triangle Midsegment Theorem: DE = ½ · BC = 13.",
+     "source": "original",
+     "id": "g10-advanced-t1-similarity-2"
+    },
+    {
+     "q": "A triangle has sides 6, 8 and 10. A similar triangle has shortest side 9. What is its longest side?",
+     "options": [
+      "12",
+      "13",
+      "15",
+      "18"
+     ],
+     "answer": 2,
+     "hint": "Find the scale factor using the shortest sides.",
+     "explanation": "Scale factor = 9 / 6 = 1.5, so the longest side is 10 × 1.5 = 15.",
+     "source": "original",
+     "id": "g10-advanced-t1-similarity-3"
+    },
+    {
+     "q": "Two similar figures have a scale factor of 2 : 3. What is the ratio of their areas?",
+     "options": [
+      "2 : 3",
+      "4 : 6",
+      "4 : 9",
+      "8 : 27"
+     ],
+     "answer": 2,
+     "hint": "Areas scale by the square of the scale factor.",
+     "explanation": "(2/3)² = 4/9. (8 : 27 would be the ratio of volumes.)",
+     "source": "original",
+     "id": "g10-advanced-t1-similarity-4"
+    },
+    {
+     "q": "A 1.8 m tall student casts a 2.4 m shadow. At the same time a tree casts a 16 m shadow. How tall is the tree?",
+     "options": [
+      "10.8 m",
+      "12 m",
+      "14.2 m",
+      "21.3 m"
+     ],
+     "answer": 1,
+     "hint": "The student and the tree form similar right triangles with their shadows.",
+     "explanation": "1.8 / 2.4 = h / 16, so h = 16 × 0.75 = 12 m.",
+     "source": "original",
+     "id": "g10-advanced-t1-similarity-5"
+    },
+    {
+     "q": "Which of these is NOT a valid way to prove two triangles similar?",
+     "options": [
+      "AA",
+      "SAS Similarity",
+      "SSS Similarity",
+      "SSA"
+     ],
+     "answer": 3,
+     "hint": "One of these combinations does not fix the shape of a triangle.",
+     "explanation": "SSA can produce two different triangles, so it does not prove similarity (or congruence).",
+     "source": "original",
+     "id": "g10-advanced-t1-similarity-6"
+    }
+   ]
+  },
+  {
+   "id": "right-triangles-and-trigonometry",
+   "name": "Right Triangles and Trigonometry",
+   "questions": [
+    {
+     "q": "Ahmad stands 60 m from the base of a tree. The angle of elevation from the ground to the top of the tree is 30°. How tall is the tree?",
+     "options": [
+      "20 m",
+      "20√3 m",
+      "30 m",
+      "60 m"
+     ],
+     "answer": 1,
+     "hint": "Opposite and adjacent sides are linked by tangent.",
+     "explanation": "tan 30° = h / 60, so h = 60 · (1/√3) = 60/√3 = 20√3 m.",
+     "source": "course",
+     "id": "g10-advanced-t1-right-triangles-and-trigonometry-1"
+    },
+    {
+     "q": "The shadow of an office building is 17 feet long and the angle of elevation of the sun is 55°. Find the height of the building to the nearest foot.",
+     "options": [
+      "10 feet",
+      "14 feet",
+      "24 feet",
+      "25 feet"
+     ],
+     "answer": 2,
+     "hint": "The shadow is adjacent to the 55° angle, the height is opposite.",
+     "explanation": "h = 17 · tan 55° ≈ 17 × 1.428 ≈ 24 feet.",
+     "source": "course",
+     "id": "g10-advanced-t1-right-triangles-and-trigonometry-2"
+    },
+    {
+     "q": "From the top of a 120-foot tower, an air traffic controller sees an airplane on the runway at an angle of depression of 19°. How far is the plane from the base of the tower?",
+     "options": [
+      "348.5 ft",
+      "368.6 ft",
+      "329.7 ft",
+      "350.9 ft"
+     ],
+     "answer": 0,
+     "hint": "The angle of depression equals the angle of elevation from the plane.",
+     "explanation": "tan 19° = 120 / d, so d = 120 / tan 19° ≈ 120 / 0.3443 ≈ 348.5 ft.",
+     "source": "course",
+     "id": "g10-advanced-t1-right-triangles-and-trigonometry-3"
+    },
+    {
+     "q": "In △ABC, m∠C = 85°, AC = 52 and BC = 92. Which expression gives AB?",
+     "options": [
+      "√(11168 − 4784 cos 85°)",
+      "√(11168 − 9568 cos 85°)",
+      "11168 − 4784 cos 85°",
+      "11168 − 9568 cos 85°"
+     ],
+     "answer": 1,
+     "hint": "Two sides and the included angle: use the Law of Cosines.",
+     "explanation": "AB² = 52² + 92² − 2(52)(92) cos 85° = 11168 − 9568 cos 85°. Take the square root.",
+     "source": "course",
+     "id": "g10-advanced-t1-right-triangles-and-trigonometry-4"
+    },
+    {
+     "q": "A right triangle has legs 5 and 12. What is the hypotenuse?",
+     "options": [
+      "13",
+      "17",
+      "√119",
+      "60"
+     ],
+     "answer": 0,
+     "hint": "Use the Pythagorean Theorem.",
+     "explanation": "c² = 5² + 12² = 25 + 144 = 169, so c = 13.",
+     "source": "original",
+     "id": "g10-advanced-t1-right-triangles-and-trigonometry-5"
+    },
+    {
+     "q": "A 45°-45°-90° triangle has a leg of length 4. What is the hypotenuse?",
+     "options": [
+      "4",
+      "4√2",
+      "4√3",
+      "8"
+     ],
+     "answer": 1,
+     "hint": "In a 45-45-90 triangle the hypotenuse is leg × √2.",
+     "explanation": "Hypotenuse = 4√2.",
+     "source": "original",
+     "id": "g10-advanced-t1-right-triangles-and-trigonometry-6"
+    },
+    {
+     "q": "In a 30°-60°-90° triangle the shorter leg is 6. What is the hypotenuse?",
+     "options": [
+      "6√3",
+      "9",
+      "12",
+      "6√2"
+     ],
+     "answer": 2,
+     "hint": "The hypotenuse is twice the shorter leg.",
+     "explanation": "Sides are in the ratio 1 : √3 : 2, so the hypotenuse is 2 × 6 = 12.",
+     "source": "original",
+     "id": "g10-advanced-t1-right-triangles-and-trigonometry-7"
+    }
+   ]
+  }
+ ]
+}
